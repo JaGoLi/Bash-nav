@@ -10,4 +10,4 @@ gh: go to home directory<br/>
 gb: go back on directory<br/>
 
 ## install
-Source the file in your shell's .rc file. For zsh, change the header from ```bash``` to ```zsh```
+Source the file ```navs.sh``` in your shell's .rc file. For zsh, change the header from ```bash``` to ```zsh```
