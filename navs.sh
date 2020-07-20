@@ -11,6 +11,10 @@ pdir() {
 printf "Directory: ${color}%s${nc}\n" "$(pwd)/$1"
 }
 
+nt() {
+$(ps -p $(ps -p $$ -o ppid=) -o args=) $@ &; disown
+}
+
 gt() {
 if (( $# == 0 )); then
 	pdir; tree -lCL 1 $(ls -d */)
