@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-
-#navigation commands
+#Navigation commands
 alias gh="cd ~; pdir; ls"
 alias gb="cd ..; pdir; ls"
 
@@ -12,7 +11,7 @@ printf "Directory: ${color}%s${nc}\n" "$(pwd)/$1"
 }
 
 nt() {
-$(ps -p $(ps -p $$ -o ppid=) -o args=) $@ &; disown
+$(ps -p $(ps -p $$ -o ppid=) -o args=) $@ >/dev/null 2>&1 &; disown
 }
 
 gt() {
