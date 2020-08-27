@@ -2,6 +2,7 @@
 Navigate through the filesystem easily all in the terminal
 
 ## Commands
+nt: open a new terminal in the current directory.
 gt: list files in  a tree view<br/>
 Arguments: #1: specify tree level(default 1) #2: add arugments similar to ls(example: -a for hidden files) #3: directory name<br/>
 gd: go to directory and list files<br/>
