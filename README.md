@@ -8,7 +8,7 @@ Arguments: #1: specify tree level(default 1) #2: add arugments similar to ls(exa
 gd: go to directory and list files<br/>
 Arguments: #1: add arugments similar to ls(example: -a for hidden files) #2: directory name<br/>
 gh: go to home directory<br/>
-gb: go back on directory<br/>
+gb: go back one directory<br/>
 
 ## install
 Source the file ```navs.sh``` in your shell's .rc file. For zsh, change the header from ```bash``` to ```zsh```
